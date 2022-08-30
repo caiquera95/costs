@@ -1,0 +1,37 @@
+.newproject_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 450px;
+    margin: 0 auto;
+    padding: 3em;
+}
+
+.newproject_container h2 {
+    margin-bottom: 0.5em;
+}
+
+.newproject_container p {
+    color: #7b7b7b;
+    margin-bottom: 0.5em;
+}
+
+@media screen and (max-width: 1366px) {
+    .newproject_container {
+        padding: 0em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .newproject_container h2 {
+        font-size: 1.1em;
+        margin-bottom: 0.5em;
+    }
+    
+    .newproject_container p {
+        color: #7b7b7b;
+        font-size: .9em;
+        margin-bottom: 1.3em;
+    }
+}
+

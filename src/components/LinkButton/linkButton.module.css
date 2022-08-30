@@ -1,0 +1,20 @@
+.btn  {
+    background-color: #222;
+    color: white;
+    font-weight: 900;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 375px) {
+    .btn  {
+        font-size: .8em;
+        margin-bottom: 2em;
+    }
+}

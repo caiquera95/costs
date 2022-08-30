@@ -1,0 +1,56 @@
+.form_control {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form_control label {
+    font-weight: bold;
+    margin-bottom: .6em;
+}
+
+.form_control input {
+    border-radius: 0;
+    border: none;
+    padding: .7em;
+}
+
+.form_control input::placeholder {
+    color: #7b7b7b;
+}
+
+
+@media screen and (max-width: 375px) {
+    .form_control label {
+        font-size: .8em;
+        font-weight: bold;
+        margin-bottom: .6em;
+    }
+    
+    .form_control input {
+        border-radius: 0;
+        border: none;
+        font-size: .7em;
+        padding: .7em;
+        
+    }
+}
+
+
+/* Nome: Caíque Antônio
+
+
+Quantidade:
+ 20 coxinhas
+ 15 kibes
+ 15 Risoles
+ 15 Bolinhos de Carne
+ 20 Esfihas de Carne
+ 15 Esfihas de Frango 
+
+
+Horário: 15:00
+
+Data: 27/08/22
+
+Forma de Pagamento: Cartão de Débito */

@@ -1,0 +1,219 @@
+.project_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 1em;
+    border: 1px solid #7a7a7a;
+    border-radius: 5px;
+    width: 24%;
+    margin: 0.5%;
+}
+
+.project_card h4 {
+    display: flex;
+    background-color: #222;
+    color: orange;
+    font-size: 1.1em;
+    padding: .4em;
+    margin-bottom: 1.3em;
+    white-space: nowrap;
+}
+
+.project_card p {
+    color: #7a7a7a;
+    margin-bottom: 1em;
+    margin-left: .6em;
+}
+
+.project_card p span {
+    font-weight: bold;
+}
+
+.category_text {
+    display: flex;
+    align-items: center;
+}
+
+.category_text span {
+    display: block;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 12px;
+    height: 12px;
+}
+
+.category_text .infra {
+    background-color: red;
+}
+
+.category_text .desenvolvimento {
+    background-color: rgb(175, 47, 164);
+}
+
+.category_text .design {
+    background-color: rgb(165, 201, 187);
+}
+
+.category_text .planejamento {
+    background-color: rgb(0, 89, 255);
+}
+
+.project_card_actions {
+    margin-top: 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.project_card_actions a,
+.project_card_actions button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #222;
+    color: #222;
+    cursor: pointer;
+    font-size: .9em;
+    font-weight: bold;
+    padding: .6em 1.2em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.project_card_actions button {
+    display: flex;
+}
+
+
+.project_card_actions a:hover,
+.project_card_actions button:hover {
+    background-color: #222;
+    border: 1px solid orange;
+    color: orange;
+    font-weight: bold;
+}
+
+.project_card_actions svg {
+    margin-right: .5em;
+}
+
+@media screen and (max-width: 1024px) {
+    .project_card_actions {
+        margin-top: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .project_card_actions a,
+    .project_card_actions button {
+        font-size: .9em;
+        padding: .4em .6em;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .project_card_actions svg {
+        margin-right: .2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .project_card {
+        padding: 1em;
+        border: 1px solid #7a7a7a;
+        border-radius: 5px;
+        width: 40%;
+        margin: 1em;
+    }
+
+    .project_card_actions {
+        margin-top: 1.2em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .project_card_actions a,
+    .project_card_actions button {
+        font-size: .9em;
+        padding: .4em .4em;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .project_card_actions svg {
+        margin-right: .2em;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .project_card {
+        padding: 1em;
+        border: 1px solid #7a7a7a;
+        border-radius: 5px;
+        width: 90%;
+        margin: 1em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .project_card {
+        padding: 1em;
+        border: 1px solid #7a7a7a;
+        border-radius: 5px;
+        width: 90%;
+        margin: 1em;
+    }
+
+    .project_card h4 {
+        font-size: .9em;
+        padding: .4em;
+        margin-bottom: 1.3em;
+        white-space: nowrap;
+    }
+    
+    .project_card p {
+        font-size: .8em;
+    }
+
+    .project_card_actions a,
+    .project_card_actions button {
+        font-size: .7em;
+        padding: .6em 1.2em;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .project_card {
+        padding: 1em;
+        border: 1px solid #7a7a7a;
+        border-radius: 5px;
+        width: 90%;
+        margin: 1em;
+    }
+
+    .project_card_actions a,
+    .project_card_actions button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        border: 1px solid #222;
+        color: #222;
+        cursor: pointer;
+        font-size: .6em;
+        font-weight: bold;
+        padding: .6em 1.2em;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+}
